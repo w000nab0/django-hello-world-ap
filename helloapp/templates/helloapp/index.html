@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>My App</title>
+</head>
+<body>
+    <h1>ボタンを押してみて！</h1>
+
+    <button onclick="sayHello()">ここをクリック</button>
+
+    <p id="message"></p>
+
+    <script>
+        // sayHello 関数の定義
+        function sayHello() {
+            // id="message" の要素を取得して、テキストを「ハローワールド」に変える
+            document.getElementById('message').textContent = 'ハローワールド';
+        }
+    </script>
+</body>
+</html>
